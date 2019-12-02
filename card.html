@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Card</title>
+</head>
+<body>
+    <script>
+        function toggleImage() {
+            var img1 = "https://i.pinimg.com/originals/10/80/a4/1080a4bd1a33cec92019fab5efb3995d.png";
+            var img2 = "https://render.fineartamerica.com/images/rendered/default/greeting-card/images/artworkimages/medium/1/poker-playing-card-ace-diamond-miroslav-nemecek-transparent.png?&targetx=44&targety=41&imagewidth=411&imageheight=618&modelwidth=500&modelheight=700&backgroundcolor=ffffff&orientation=1";
+            
+            var imgElement = document.getElementById('toggleImage');
+
+            imgElement.src = (imgElement.src === img1)? img2 : img1;
+        }    
+    </script>
+    <img src="https://i.pinimg.com/originals/10/80/a4/1080a4bd1a33cec92019fab5efb3995d.png" id="toggleImage" onclick="toggleImage();">
+</body>
+</html>

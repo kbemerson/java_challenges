@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    border: 1px solid black;
+    padding: 10px;
+    width: 330px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+#log {
+    height: 120px;
+    width: 350px;
+    display: block;
+    box-sizing: border-box;
+  }
+
+[class^="definition-"] {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.definiton-there {
+    font-size: 50px;
+    position: relative;
+}
+.definiton-their {
+    font-size: 50px;
+    position: relative;
+}
+.definiton-theyre {
+    font-size: 50px;
+    position: relative;
+}

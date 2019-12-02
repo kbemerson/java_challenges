@@ -1,0 +1,17 @@
+#digit {
+    width: .5em;
+    overflow: hidden;
+    font: 32px serif;
+    cursor: pointer;
+  }
+  
+  #stripe {
+    display: inline-block
+  }
+  
+  #stripe.animate {
+    transform: translate(-90%);
+    transition-property: transform;
+    transition-duration: "time"s;
+    transition-timing-function: steps("time", end);
+  }
